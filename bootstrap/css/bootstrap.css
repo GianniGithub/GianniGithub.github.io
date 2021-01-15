@@ -602,14 +602,12 @@ pre code {
 	display: flex;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	margin-right: 5%;
-	margin-left: 5%;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: 100px 100px;
 	grid-template-areas: '. img . .' '. . . .';
 	margin-top: 64px;
 	margin-bottom: 0px;
-}
+calc(100% - 50px)calc(100% - 50px)calc(100% - 50px)calc(100% - 50px)}
 
 .no-gutters {
     margin-right: 0;
@@ -7211,7 +7209,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-    background-color: rgba(0, 0, 0, 0.88) !important;
+	background-color: #02040E !important;
 }
 
 a.bg-secondary:hover,

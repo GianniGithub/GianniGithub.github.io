@@ -25,7 +25,7 @@ body {
   	margin-right: auto;
 }
 .CardTextStyle{
-	color: #c24efe;
+	color: #2f7fc7;
 }
 
 .footerText {
@@ -36,4 +36,9 @@ body {
 .LogoImage {
 	width: 19px;
 	height: 19px;
+}
+
+.MiddelRow {
+	margin-left:  20%;
+	margin-right: 20%;
 }
