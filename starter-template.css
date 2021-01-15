@@ -7,3 +7,33 @@ body {
     padding: 3rem 1.5rem;
     text-align: center;
 }
+
+.MainIcon {
+ 	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	width: 50%;
+  	height: 50%;
+	max-width: 200px;
+	
+}
+
+.GameCards {
+	background-color: transparent;
+	max-width: 565px;
+	margin-left: auto;
+  	margin-right: auto;
+}
+.CardTextStyle{
+	color: #c24efe;
+}
+
+.footerText {
+	color: darkgray;
+	text-align: right;
+}
+
+.LogoImage {
+	width: 19px;
+	height: 19px;
+}

@@ -598,15 +598,17 @@ pre code {
 }
 
 .row {
-    display: grid;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px;
-    grid-template-areas: '. img . .' '. . . .';
+	display: grid;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: 5%;
+	margin-left: 5%;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 100px 100px;
+	grid-template-areas: '. img . .' '. . . .';
+	margin-top: 64px;
+	margin-bottom: 0px;
 }
 
 .no-gutters {
@@ -5154,7 +5156,8 @@ input[type="button"].btn-block {
 }
 
 .card-title {
-    margin-bottom: 0.75rem;
+	margin-bottom: 0.75rem;
+	color: inherit;
 }
 
 .card-subtitle {
@@ -5230,8 +5233,9 @@ input[type="button"].btn-block {
 
 .card-img,
 .card-img-top {
-    border-top-left-radius: calc(0.25rem - 1px);
-    border-top-right-radius: calc(0.25rem - 1px);
+	border-top-left-radius: calc(0.25rem - 1px);
+	border-top-right-radius: calc(0.25rem - 1px);
+	border-bottom-left-radius: 0px 0px;
 }
 
 .card-img,
@@ -8683,11 +8687,12 @@ button.bg-dark:focus {
 }
 
 .fixed-bottom {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1030;
+	position: fixed;
+	right: 0;
+	bottom: auto;
+	left: 0;
+	z-index: 1030;
+	top: 0px;
 }
 
 @supports ((position: -webkit-sticky) or (position: sticky)) {
@@ -11012,7 +11017,8 @@ button.bg-dark:focus {
 }
 
 .text-center {
-    text-align: center !important;
+	text-align: center !important;
+	color: #2e80c3;
 }
 
 @media (min-width: 576px) {
